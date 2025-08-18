@@ -11,7 +11,64 @@
 <header id="main header">
 <h1>Welcome to Stellar Solutions</h1>
 
+<!--Navigation Menue-->
+<nav id="main view">
+<a href="Index.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="#contact">Contact</a> <!--Internal link to the contact section-->
+</nav>
+
 </header>
 
+<hr>
+
+<!--Introduction Section-->
+<section id="intro-section">
+<h2>Your Partner In Innovation</h2> <!--Section Heading-->
+<p>
+    <!--Image Representing Teamwork-->
+    <img src="Images/Teamwork.jpg"
+    alt="Team Working Together on a Project."
+    style="max-width: 100%; height: auto;"> <!--Ensures image scales responsively-->
+</p>
+
+</section>
+
+<hr>
+
+<!--Contact Section-->
+<section id="contact-section">
+    <h2>Get in touch</h2>
+    <p>Have a project in mind? Fill out oir contact form below and we willget back to you</p>
+
+    <!--Contact form-->
+    <form id="ocntact form" action="/submit-contact" method="post">
+        <label for="email">Your Email</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">You Message</label><br>
+        <textarea id="message" name="message" rows="5" cols="5" required></textarea><br><br>
+        <input type="submit" value="send">
+    </form>
+   
+
+    <hr>
+
+    <!--IFrame for maps-->
+    <h2>Find us here</h2>
+    <iframe
+    id="location-map"
+    src="https://www.google.com/maps/place/The+IIE's+Varsity+College+-+Pietermaritzburg/@-29.6120437,30.405591,17z/data=!4m6!3m5!1s0x1ef6bc4f1e7c8603:0x6f24436d4e06e7dc!8m2!3d-29.6120624!4d30.4058914!16s%2Fg%2F1td3btwg?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D"
+    weight="600"
+    height="450"
+    style="border: 0;"
+    allowfullscreen=""
+    loading="lazy">
+    </iframe>
+    </section>
+
+    <br>
+
+    
 </body>
 </html>
